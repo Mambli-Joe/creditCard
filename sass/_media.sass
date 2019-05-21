@@ -1,0 +1,124 @@
+@import "vars"
+
+
+
+@media only screen and (max-width : 1000px)
+	body
+		margin-top: 0
+	
+	.wrapper
+		width: 100%
+
+	.menu
+		margin-left: 0
+	/**/
+
+
+	
+		
+		
+
+	/**/
+@media only screen and (max-width : 926px)
+	.credit-card__back
+		display: none
+	#cvc
+		display: block
+@media only screen and (max-width : 905px)
+	.card-req__text
+		flex: 35% 1 1
+	
+
+@media only screen and (max-width : 768px)
+	body
+		margin-top: 0px
+
+	.wrapper
+		width: 100%
+		display: flex
+		flex-flow: column nowrap
+	.menu
+		margin-left: 0
+		i
+			display: block
+		&__head
+			margin: 25px  40%
+
+	#showHide
+		display: none
+		transition: all 1s			
+	.menu__list
+		display: flex
+		flex-flow: row wrap
+		
+		
+	.menu__item
+		text-align: center
+		flex: 33% 1 1
+		border-right: 1px solid white
+		border-right-height: 10%
+	
+	.card-head
+		text-align: center
+
+	.credit-card
+		width: 760px
+	.credit-card__front
+		width: 100%
+		
+
+
+@media only screen and (max-width : 480px)
+	.credit-card
+		width: 470px
+	.menu
+		i
+			left: 32%
+	/**/
+
+
+@media only screen and (max-width : 320px)
+	.credit-card
+		width: 310px
+	.menu
+		&__head
+			margin-left: 95px
+			span
+		i
+			left: 20%
+	.card-head__header
+		font-size: 1.5em
+	.card-head__text
+		font-size: .8em
+	.card-req__text
+		font-size: .9em
+	.card-req__data
+		.card-req__head
+			font-size: 1em
+			padding-right: 0
+
+	.credit-card__front 
+		.credit-card__number
+			width: 40%
+			margin-left: 10px
+			margin-bottom: 10px
+		.credit-card__year
+			width: 40%
+			padding-left: 10px
+		.credit-card__month
+			width: 20%
+			padding-left: 5px
+			margin-left: 10px
+		.credit-card__holder
+			margin-left: 10px
+			width: 65%
+	#cvc
+		font-size: .8em
+
+	.card-req__button
+		font-size: .85em
+			
+
+
+
+

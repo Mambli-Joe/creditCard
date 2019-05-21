@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Title</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.min.css" />
+  <script src="js/common.js" defer></script>
+</head>
+
+<body >
+  <div class="wrapper">
+    <!--ANCHOR MENU START -->
+    <section class="menu" style="background: #fff">
+      <i class="fas fa-bars" id="showMenu"></i>
+      <div class="menu__head">
+        <span> PLACEHOLDER</span>
+        <p></p>
+      </div>
+      <div id="showHide" >
+        <ul class="menu__list" >
+          <li class="menu__item"><a href="#"> 1st Link</a></li>
+          <li class="menu__item"><a href="#"> 2st Link</a></li>
+          <li class="menu__item"><a href="#"> 3st Link</a></li>
+        </ul>
+        <ul class="menu__list">
+          <li class="menu__item"><a href="#">Log In</a></li>
+          <li class="menu__item"><a href="#">Exit</a></li>
+        </ul>
+      </div>
+    </section>
+    <!--ANCHOR MENU END -->
+    <!--ANCHOR INFO ABOUT CARD START -->
+    <section class="card">
+      <div class="card-head" style="background: #E3AE57">
+        <h1 class="card-head__header">Lorem, ipsum.</h1>
+        <p class="card-head__text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo atque placeat aliquid alias ipsum maxime suscipit eum.
+        </p>
+      </div>
+      <div class="card-req">
+        <div class="card-req__info">
+          <p class="card-req__text">Pay information</p>
+          <br />
+          <p class="card-req__text">Deposit</p>
+          <p class="card-req__text-value">SDAQW SDWD SD@A 2412</p>
+          <br />
+          <p class="card-req__text">Money</p>
+          <p class="card-req__text-value">102420 руб.</p>
+        </div>
+        <div class="card-req__data">
+          <h1 class="card-req__head">Card Data</h1>
+
+
+          <form name='forma12'>
+
+            <div class="credit-card">
+              <div class="credit-card__front">
+                <label for=""><p class="card-req__text">Card #</p></label> 
+                <input type="text" id="number1" class="credit-card__number"> <input
+                  type="text" id="number2" class="credit-card__number"> <input type="text" id="number3"
+                  class="credit-card__number"> <input type="text" id="number4" class="credit-card__number"><br>
+               
+                <label for="month"> <p class="card-req__text">Date</p></label>
+                <select class="credit-card__month" name="month">
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+
+                <select class="credit-card__year" name="year">
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                </select>
+                <input type="text" class="credit-card__holder" id="holder"  placeholder="Держатель карты">
+                <span class="error" id="error"></span>
+                
+                <input type="text" class="credit-card__number card-cvc" name="c" " placeholder="CVC/CVV2">
+                
+
+
+              </div>
+              <div class="credit-card__back">
+                <div class="card-band"></div>
+                <label for="cardCvc"><p class="card-req__text">CVV/CVC2</p></label> 
+                <i class="far fa-question-circle" data-title="Write CVV/CVC2"></i>
+                <input type="text" name="cardCvc" id="cvc" class="card-cvc">
+                
+               
+
+              </div>
+            </div>
+            <input  type="submit" class="card-req__button"  onclick="formCheck(); return false;" value="Submit" style="background: #E3AE57"></input>
+          </form>
+
+          
+
+
+
+
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <p class="card-footer__text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio praesentium tempora totam modi ducimus? Aspernatur, ea! Recusandae iusto, tempora adipisci enim inventore dolore hic at iure rerum, laborum temporibus iste.
+        </p>
+        <p class="card-footer__text">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, eveniet?
+        </p>
+        <p class="card-footer__text">
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat et vero saepe officia laboriosam porro.
+        </p>
+        <p class="card-footer__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore harum magni error. Ex itaque perferendis velit eveniet. Voluptas culpa vel, sed aliquam mollitia sint iure dicta eum unde debitis, quidem error molestias dignissimos ipsum at delectus deserunt, quas aut natus. Tempore repellat enim consequuntur illo porro facilis rerum, assumenda magnam.
+        </p>
+      </div>
+    </section>
+  </div>
+  <!--ANCHOR INFO ABOUT CARD END -->
+ 
+
+ 
+  </div>
+
+
+</body>
+
+</html>
